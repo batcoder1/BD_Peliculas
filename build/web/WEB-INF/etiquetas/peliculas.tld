@@ -1,0 +1,38 @@
+<!DOCTYPE taglib PUBLIC
+  "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN"
+  "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+<taglib>
+	<tlibversion>1.0</tlibversion>
+	<jspversion>2.0</jspversion>
+	<shortname>customtagsjava</shortname>
+	<tag>
+		<name>pelis</name> 
+		<tagclass>customtag.peliculas</tagclass>
+                	<bodycontent>empty</bodycontent>
+                        <attribute>
+                            <name>numero</name>
+                            <required>true</required>
+                            <rtexprvalue>true</rtexprvalue>
+        		</attribute>
+        </tag>
+        <tag>
+                <name>addpelis</name> 
+		<tagclass>customtag.addPeliculas</tagclass>
+                	<bodycontent>empty</bodycontent>
+        </tag>
+	 <tag>
+                <name>listadopelis</name> 
+		<tagclass>customtag.listadoPeliculas</tagclass>
+                	<bodycontent>empty</bodycontent>
+        </tag>
+         <tag>
+                <name>borrar</name> 
+		<tagclass>customtag.borrar</tagclass>
+                	<bodycontent>empty</bodycontent>
+        </tag>
+        <tag>
+                <name>modificar</name> 
+		<tagclass>customtag.modificar</tagclass>
+                	<bodycontent>empty</bodycontent>
+        </tag>
+</taglib>
