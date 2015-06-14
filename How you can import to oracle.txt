@@ -1,0 +1,7 @@
+En el menú tools de pl-sqldeveloper elegir la opción import tables 
+y en la pestaña plsqldeveloper 
+elegir el archivo pelis.pde marcando el checkbox de crear tablas.
+
+tools-> pl-sqldeveloper-> import tables
+
+check create tables and choose your file 
